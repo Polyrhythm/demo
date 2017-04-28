@@ -1,0 +1,105 @@
+﻿  intro.cpp
+  main_win_rel.cpp
+  Generating Code...
+  Crinkler 2.0 (Jul 28 2015) (c) 2005-2015 Aske Simon Christensen & Rune Stubbe
+  
+  Ignoring unknown argument '/ERRORREPORT:PROMPT'
+  Ignoring unknown argument '/NOLOGO'
+  Ignoring unknown argument '/NODEFAULTLIB'
+  Ignoring unknown argument '/MANIFEST:NO'
+  Ignoring unknown argument '/DEBUG:FULL'
+  Ignoring unknown argument '/PDB:.\exe\g4k_OGLShader.pdb'
+  Ignoring unknown argument '/TLBID:1'
+  Ignoring unknown argument '/DYNAMICBASE:NO'
+  Ignoring unknown argument '/IMPLIB:.\exe\g4k_OGLShader.lib'
+  Ignoring unknown argument '/MACHINE:X86'
+  Ignoring unknown argument '/SAFESEH'
+  Target: .\exe\g4k_OGLShader.exe
+  Tiny compressor: NO
+  Tiny import: NO
+  Subsystem type: WINDOWS
+  Large address aware: NO
+  Compression mode: SLOW
+  Saturate counters: NO
+  Hash size: 100 MB
+  Hash tries: 300
+  Order tries: 4000
+  Report: .\exe\out.html
+  Transforms: NONE
+  Replace DLLs: NONE
+  Fallback DLLs: NONE
+  Range DLLs: NONE
+  Exports: NONE
+  
+  Loading opengl32.lib...
+  Loading glu32.lib...
+  Loading winmm.lib...
+  Loading kernel32.lib...
+  Loading user32.lib...
+  Loading gdi32.lib...
+  Loading winspool.lib...
+  Loading comdlg32.lib...
+  Loading advapi32.lib...
+  Loading shell32.lib...
+  Loading ole32.lib...
+  Loading oleaut32.lib...
+  Loading uuid.lib...
+  Loading odbc32.lib...
+  Loading odbccp32.lib...
+  Loading .\bin\vc2015\Release\intro.obj...
+  Loading .\bin\vc2015\Release\main_win_rel.obj...
+  
+  Linking...
+  
+  
+  Uncompressed size of code:   484
+  Uncompressed size of data:   688
+  
+  |-- Estimating models for code ----------------------------|
+  ............................................................   0m00s
+  Ideal compressed size: 293.72
+  
+  |-- Estimating models for data ----------------------------|
+  ............................................................   0m00s
+  Ideal compressed size: 288.04
+  
+  Estimated ideal compressed total size: 581.76
+  
+  
+  Reordering sections...
+    Iteration:     0  Code: 293.71  Data: 288.04  Size: 581.75
+    Iteration:     7  Code: 293.54  Data: 287.55  Size: 581.08
+    Iteration:    23  Code: 293.63  Data: 286.99  Size: 580.62
+    Iteration:    55  Code: 294.07  Data: 286.49  Size: 580.56
+    Iteration:   106  Code: 293.44  Data: 287.10  Size: 580.54
+    Iteration:   121  Code: 293.45  Data: 286.84  Size: 580.29
+    Iteration:   284  Code: 293.01  Data: 287.02  Size: 580.03
+    Iteration:   343  Code: 292.77  Data: 287.12  Size: 579.89
+    Iteration:   530  Code: 293.04  Data: 286.81  Size: 579.85
+    Iteration:   756  Code: 293.49  Data: 286.25  Size: 579.74
+    Iteration:  1530  Code: 293.16  Data: 286.39  Size: 579.56
+    Iteration:  2535  Code: 293.43  Data: 286.07  Size: 579.50
+    Iteration:  2656  Code: 292.92  Data: 286.41  Size: 579.32
+    Iteration:  2775  Code: 292.01  Data: 287.19  Size: 579.20
+  Time spent: 0m04s
+  
+  |-- Reestimating models for code --------------------------|
+  ............................................................   0m00s
+  Ideal compressed size: 291.81
+  
+  |-- Reestimating models for data --------------------------|
+  ............................................................   0m00s
+  Ideal compressed size: 287.13
+  
+  Reestimated ideal compressed total size: 578.93
+  
+  |-- Optimizing hash table size ----------------------------|
+  ............................................................   0m00s
+  Real compressed total size: 579
+  Bytes lost to hashing: 0.07
+  
+  Output file: .\exe\g4k_OGLShader.exe
+  Final file size: 923 (previous size 396288)
+  
+  time spent: 0m08s
+  g4k_OGLShader_vc2015.vcxproj -> C:\Users\polyr\Development\cpp\4k\g4k_OGLShader\.\exe\g4k_OGLShader.exe

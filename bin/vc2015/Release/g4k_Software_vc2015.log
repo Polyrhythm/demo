@@ -1,0 +1,125 @@
+﻿  image.cpp
+  intro.cpp
+  main_win_rel.cpp
+  system.cpp
+  Generating Code...
+  Crinkler 2.0 (Jul 28 2015) (c) 2005-2015 Aske Simon Christensen & Rune Stubbe
+  
+  Ignoring unknown argument '/ERRORREPORT:PROMPT'
+  Ignoring unknown argument '/NOLOGO'
+  Ignoring unknown argument '/NODEFAULTLIB'
+  Ignoring unknown argument '/MANIFEST:NO'
+  Ignoring unknown argument '/DEBUG:FULL'
+  Ignoring unknown argument '/PDB:.\exe\g4k_Software.pdb'
+  Ignoring unknown argument '/TLBID:1'
+  Ignoring unknown argument '/DYNAMICBASE:NO'
+  Ignoring unknown argument '/IMPLIB:.\exe\g4k_Software.lib'
+  Ignoring unknown argument '/MACHINE:X86'
+  Ignoring unknown argument '/SAFESEH'
+  Target: .\exe\g4k_Software.exe
+  Tiny compressor: NO
+  Tiny import: NO
+  Subsystem type: WINDOWS
+  Large address aware: NO
+  Compression mode: SLOW
+  Saturate counters: NO
+  Hash size: 100 MB
+  Hash tries: 300
+  Order tries: 4000
+  Report: .\exe\out.html
+  Transforms: NONE
+  Replace DLLs: NONE
+  Fallback DLLs: NONE
+  Range DLLs: NONE
+  Exports: NONE
+  
+  Loading opengl32.lib...
+  Loading glu32.lib...
+  Loading winmm.lib...
+  Loading kernel32.lib...
+  Loading user32.lib...
+  Loading gdi32.lib...
+  Loading winspool.lib...
+  Loading comdlg32.lib...
+  Loading advapi32.lib...
+  Loading shell32.lib...
+  Loading ole32.lib...
+  Loading oleaut32.lib...
+  Loading uuid.lib...
+  Loading odbc32.lib...
+  Loading odbccp32.lib...
+  Loading .\bin\vc2015\Release\image.obj...
+  Loading .\bin\vc2015\Release\intro.obj...
+  Loading .\bin\vc2015\Release\main_win_rel.obj...
+  Loading .\bin\vc2015\Release\system.obj...
+  
+  Linking...
+  
+  
+  Uncompressed size of code:  1770
+  Uncompressed size of data:   248
+  
+  |-- Estimating models for code ----------------------------|
+  ............................................................   0m01s
+  Ideal compressed size: 1098.33
+  
+  |-- Estimating models for data ----------------------------|
+  ............................................................   0m00s
+  Ideal compressed size: 88.04
+  
+  Estimated ideal compressed total size: 1186.38
+  
+  
+  Reordering sections...
+    Iteration:     0  Code: 1098.33  Data: 88.04  Size: 1186.38
+    Iteration:     2  Code: 1096.71  Data: 88.04  Size: 1184.75
+    Iteration:     3  Code: 1096.66  Data: 88.04  Size: 1184.70
+    Iteration:     6  Code: 1094.23  Data: 88.04  Size: 1182.27
+    Iteration:    63  Code: 1093.57  Data: 88.04  Size: 1181.62
+    Iteration:    64  Code: 1092.57  Data: 88.04  Size: 1180.61
+    Iteration:   145  Code: 1091.67  Data: 88.81  Size: 1180.48
+    Iteration:   158  Code: 1091.31  Data: 88.81  Size: 1180.13
+    Iteration:   173  Code: 1090.61  Data: 88.81  Size: 1179.42
+    Iteration:   177  Code: 1090.33  Data: 88.82  Size: 1179.15
+    Iteration:   227  Code: 1089.00  Data: 88.82  Size: 1177.82
+    Iteration:   311  Code: 1088.88  Data: 88.82  Size: 1177.70
+    Iteration:   341  Code: 1088.88  Data: 88.82  Size: 1177.69
+    Iteration:   353  Code: 1087.98  Data: 88.82  Size: 1176.79
+    Iteration:   391  Code: 1087.57  Data: 88.82  Size: 1176.38
+    Iteration:   405  Code: 1087.07  Data: 89.25  Size: 1176.32
+    Iteration:   455  Code: 1086.74  Data: 89.48  Size: 1176.22
+    Iteration:   472  Code: 1086.07  Data: 89.48  Size: 1175.55
+    Iteration:   672  Code: 1085.00  Data: 89.60  Size: 1174.61
+    Iteration:   682  Code: 1085.10  Data: 88.61  Size: 1173.71
+    Iteration:  1038  Code: 1084.97  Data: 88.64  Size: 1173.60
+    Iteration:  1060  Code: 1084.93  Data: 88.54  Size: 1173.47
+    Iteration:  1125  Code: 1084.74  Data: 88.72  Size: 1173.46
+    Iteration:  1259  Code: 1084.24  Data: 88.72  Size: 1172.96
+    Iteration:  1477  Code: 1084.41  Data: 88.54  Size: 1172.95
+    Iteration:  1730  Code: 1084.54  Data: 88.30  Size: 1172.84
+    Iteration:  2842  Code: 1084.31  Data: 88.16  Size: 1172.47
+    Iteration:  3860  Code: 1084.32  Data: 88.14  Size: 1172.46
+    Iteration:  3926  Code: 1084.19  Data: 88.03  Size: 1172.23
+    Iteration:  3999  Code: 1084.36  Data: 87.82  Size: 1172.18
+  Time spent: 0m11s
+  
+  |-- Reestimating models for code --------------------------|
+  ............................................................   0m00s
+  Ideal compressed size: 1082.96
+  
+  |-- Reestimating models for data --------------------------|
+  ............................................................   0m00s
+  Ideal compressed size: 87.82
+  
+  Reestimated ideal compressed total size: 1170.78
+  
+  |-- Optimizing hash table size ----------------------------|
+  ............................................................   0m01s
+  Real compressed total size: 1171
+  Bytes lost to hashing: 0.22
+  
+  Output file: .\exe\g4k_Software.exe
+  Final file size: 1523 (previous size 429568)
+  
+  time spent: 0m20s
+  g4k_Software_vc2015.vcxproj -> C:\Users\polyr\Development\cpp\4k\g4k_Software\.\exe\g4k_Software.exe

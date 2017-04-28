@@ -1,0 +1,107 @@
+﻿  intro.cpp
+  main_win_rel.cpp
+  system.cpp
+  Generating Code...
+  Crinkler 2.0 (Jul 28 2015) (c) 2005-2015 Aske Simon Christensen & Rune Stubbe
+  
+  Ignoring unknown argument '/ERRORREPORT:PROMPT'
+  Target: .\exe\i4k_Software.exe
+  Tiny compressor: NO
+  Tiny import: NO
+  Subsystem type: WINDOWS
+  Large address aware: NO
+  Compression mode: SLOW
+  Saturate counters: NO
+  Hash size: 100 MB
+  Hash tries: 300
+  Order tries: 4000
+  Report: .\exe\out.html
+  Transforms: NONE
+  Replace DLLs: NONE
+  Fallback DLLs: NONE
+  Range DLLs: NONE
+  Exports: NONE
+  
+  Loading opengl32.lib...
+  Ignoring unknown argument '/NOLOGO'
+  Ignoring unknown argument '/NODEFAULTLIB'
+  Ignoring unknown argument '/MANIFEST:NO'
+  Ignoring unknown argument '/DEBUG:FULL'
+  Ignoring unknown argument '/PDB:.\exe\i4k_Software.pdb'
+  Ignoring unknown argument '/TLBID:1'
+  Ignoring unknown argument '/DYNAMICBASE:NO'
+  Ignoring unknown argument '/IMPLIB:.\exe\i4k_Software.lib'
+  Ignoring unknown argument '/MACHINE:X86'
+  Ignoring unknown argument '/SAFESEH'
+  Loading glu32.lib...
+  Loading winmm.lib...
+  Loading kernel32.lib...
+  Loading user32.lib...
+  Loading gdi32.lib...
+  Loading winspool.lib...
+  Loading comdlg32.lib...
+  Loading advapi32.lib...
+  Loading shell32.lib...
+  Loading ole32.lib...
+  Loading oleaut32.lib...
+  Loading uuid.lib...
+  Loading odbc32.lib...
+  Loading odbccp32.lib...
+  Loading .\bin\vc2015\Release\intro.obj...
+  Loading .\bin\vc2015\Release\main_win_rel.obj...
+  Loading .\bin\vc2015\Release\system.obj...
+  
+  Linking...
+  
+  
+  Uncompressed size of code:   829
+  Uncompressed size of data:    66
+  
+  |-- Estimating models for code ----------------------------|
+  ............................................................   0m00s
+  Ideal compressed size: 585.09
+  
+  |-- Estimating models for data ----------------------------|
+  ............................................................   0m00s
+  Ideal compressed size: 53.72
+  
+  Estimated ideal compressed total size: 638.81
+  
+  
+  Reordering sections...
+    Iteration:     0  Code: 585.09  Data: 53.72  Size: 638.81
+    Iteration:     2  Code: 582.88  Data: 53.72  Size: 636.60
+    Iteration:     6  Code: 582.13  Data: 53.72  Size: 635.85
+    Iteration:     8  Code: 581.01  Data: 53.72  Size: 634.73
+    Iteration:    14  Code: 580.97  Data: 53.72  Size: 634.69
+    Iteration:    33  Code: 580.50  Data: 53.77  Size: 634.27
+    Iteration:   128  Code: 580.71  Data: 53.49  Size: 634.20
+    Iteration:   145  Code: 580.75  Data: 53.37  Size: 634.12
+    Iteration:   173  Code: 580.66  Data: 53.32  Size: 633.98
+    Iteration:   286  Code: 580.45  Data: 53.32  Size: 633.77
+    Iteration:   312  Code: 579.62  Data: 53.32  Size: 632.94
+    Iteration:   333  Code: 579.13  Data: 53.32  Size: 632.44
+    Iteration:   351  Code: 578.73  Data: 53.65  Size: 632.38
+    Iteration:   687  Code: 578.65  Data: 53.32  Size: 631.97
+  Time spent: 0m04s
+  
+  |-- Reestimating models for code --------------------------|
+  ............................................................   0m00s
+  Ideal compressed size: 578.11
+  
+  |-- Reestimating models for data --------------------------|
+  ............................................................   0m00s
+  Ideal compressed size: 53.32
+  
+  Reestimated ideal compressed total size: 631.44
+  
+  |-- Optimizing hash table size ----------------------------|
+  ............................................................   0m00s
+  Real compressed total size: 631
+  Bytes lost to hashing: -0.44
+  
+  Output file: .\exe\i4k_Software.exe
+  Final file size: 943 (previous size 420864)
+  
+  time spent: 0m10s
+  i4k_Software_vc2015.vcxproj -> C:\Users\polyr\Development\cpp\4k\i4k_Software\.\exe\i4k_Software.exe
