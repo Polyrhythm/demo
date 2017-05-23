@@ -6,16 +6,21 @@
 #include "mzk.h"
 #include "system.h"
 
+#define TWO_PI 6.28318530717958
+
 
 // put here your synth
 void mzk_init( short *buffer )
 {
-    for( int i=0; i<MZK_NUMSAMPLES; i++ ) 
-    {
-        const float fl = sinf( 6.2831f*440.0f * (float)i/(float)MZK_RATE );
-        const float fr = sinf( 6.2831f*587.3f * (float)i/(float)MZK_RATE );
+    float freq = 1.0;
+    double phase = 0;
+    double phaseInc = TWO_PI / MZK_RATE * freq;
 
-        buffer[2*i+0] = f2i(fl*32767.0f);
-        buffer[2*i+1] = f2i(fr*32767.0f);
+    for (int i = 0; i < MZK_NUMSAMPLES; i++)
+    {
+        buffer[i] = 32767 * (sin(phase) * 1.0);
+        phase += phaseInc;
+
+        if (phase >= TWO_PI) phase -= TWO_PI;
     }
 }
